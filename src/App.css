@@ -13,3 +13,17 @@ header,
   -o-background-size: cover;
   background-size: cover;
 }
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.products img {
+  width: 15%;
+  height: 70%;
+}
+
+.products-full {
+  text-align: center;
+}
